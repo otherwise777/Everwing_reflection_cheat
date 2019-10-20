@@ -29,11 +29,11 @@ This is one of the things i achieved with this hack
 4. go back to the network tab in the developers window, and search for a message with "run_action", you can also filter the messages to make it easier
 5. select one of messages which has the POST request
 6. in the section "request headers" you will see a msg "x-wintermute-session:" copy the part which is behind of it and paste it in the code
-7. This part needs to be filled in, you need your userid but i haven't figured out how to obtain that easily
+7. now you need to fill ion the userid, this is a bit more complicated
 
-*this part needs to be made easier with some ui or function to run to retrieve data*
+*this part needs to be made easier with some ui or function to run to retrieve data, especially retrieving the userid there's no apparant way of retrieving it outside of code*
 
-7. You can now run the code but you will need some variables like your userid, clanid etc, these can be retrieved via a session
+
 
 # functions explained
 There are a couple of functions you can run from the commandline which you can use:
@@ -54,3 +54,6 @@ Soe stuff still on the roadmap:
 * compile the code in an executable?
 
 Any suggestions are welcome as well
+
+## notes for future help
+So i got most of it automated, but there are a few flaws still, i'm able to get a session with a cookie for example but i failed in retreiving the userid with a call, and to get a session you need to have the userid. The game seems to call the facebook api to get it, but i don't think i can easily script that since the logic is completely different.

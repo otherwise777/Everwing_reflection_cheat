@@ -29,6 +29,7 @@ This is one of the things i achieved with this hack
 4. go back to the network tab in the developers window, and search for a message with "run_action", you can also filter the messages to make it easier
 5. select one of messages which has the POST request
 6. in the section "request headers" you will see a msg "x-wintermute-session:" copy the part which is behind of it and paste it in the code
+7. This part needs to be filled in, you need your userid but i haven't figured out how to obtain that easily
 
 *this part needs to be made easier with some ui or function to run to retrieve data*
 
